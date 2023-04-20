@@ -4,11 +4,6 @@ package figuras_geometricas;
 import figuras_geometricas.Circulo;
 import java.text.DecimalFormat;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
-
 /**
  *
  * @author Juan Pablo
@@ -85,7 +80,6 @@ public class INTERFAZFIGURAS extends javax.swing.JFrame {
         BTNCALCULAR5 = new javax.swing.JButton();
         BORRARTODO = new javax.swing.JButton();
         SALIR = new javax.swing.JButton();
-        jMenuBar1 = new javax.swing.JMenuBar();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -533,8 +527,6 @@ public class INTERFAZFIGURAS extends javax.swing.JFrame {
         });
         background.add(SALIR, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 680, 110, 30));
 
-        setJMenuBar(jMenuBar1);
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -543,7 +535,7 @@ public class INTERFAZFIGURAS extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(background, javax.swing.GroupLayout.DEFAULT_SIZE, 733, Short.MAX_VALUE)
+            .addComponent(background, javax.swing.GroupLayout.DEFAULT_SIZE, 734, Short.MAX_VALUE)
         );
 
         pack();
@@ -806,7 +798,6 @@ public class INTERFAZFIGURAS extends javax.swing.JFrame {
     private javax.swing.JTextField TXTLADOC;
     private javax.swing.JTextField TXTRADIO;
     private javax.swing.JPanel background;
-    private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;

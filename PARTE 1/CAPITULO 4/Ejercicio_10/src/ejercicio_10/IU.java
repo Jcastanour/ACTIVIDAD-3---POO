@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package ejercicio_10;
 
 /**
@@ -87,7 +83,7 @@ public class IU extends javax.swing.JFrame {
                 CALCULARActionPerformed(evt);
             }
         });
-        jPanel1.add(CALCULAR, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 390, 120, 40));
+        jPanel1.add(CALCULAR, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 390, 120, 40));
 
         BTNBORRAR.setBackground(new java.awt.Color(0, 102, 204));
         BTNBORRAR.setFont(new java.awt.Font("Agency FB", 0, 24)); // NOI18N
@@ -101,10 +97,12 @@ public class IU extends javax.swing.JFrame {
         jPanel1.add(BTNBORRAR, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 390, 120, 40));
 
         PATRIMONIO.setBackground(new java.awt.Color(255, 255, 204));
+        PATRIMONIO.setFont(new java.awt.Font("Agency FB", 0, 24)); // NOI18N
         PATRIMONIO.setForeground(new java.awt.Color(0, 0, 0));
         jPanel1.add(PATRIMONIO, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 240, 230, 40));
 
         NUMEROINSCRIPCION.setBackground(new java.awt.Color(255, 255, 204));
+        NUMEROINSCRIPCION.setFont(new java.awt.Font("Agency FB", 0, 24)); // NOI18N
         NUMEROINSCRIPCION.setForeground(new java.awt.Color(0, 0, 0));
         NUMEROINSCRIPCION.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -114,10 +112,12 @@ public class IU extends javax.swing.JFrame {
         jPanel1.add(NUMEROINSCRIPCION, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 100, 190, 40));
 
         NOMBRE.setBackground(new java.awt.Color(255, 255, 204));
+        NOMBRE.setFont(new java.awt.Font("Agency FB", 0, 24)); // NOI18N
         NOMBRE.setForeground(new java.awt.Color(0, 0, 0));
         jPanel1.add(NOMBRE, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 170, 260, 40));
 
         ESTRATOSOCIAL.setBackground(new java.awt.Color(255, 255, 204));
+        ESTRATOSOCIAL.setFont(new java.awt.Font("Agency FB", 0, 24)); // NOI18N
         ESTRATOSOCIAL.setForeground(new java.awt.Color(0, 0, 0));
         jPanel1.add(ESTRATOSOCIAL, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 310, 210, 40));
 

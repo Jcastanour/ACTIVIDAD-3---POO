@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package ejercicio_40;
 
 import java.text.DecimalFormat;
@@ -286,10 +282,11 @@ public class GUI extends javax.swing.JFrame {
     private void BTNCALCULARActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNCALCULARActionPerformed
         // TODO add your handling code here:
         DecimalFormat df = new DecimalFormat("#.0");
+        OPERACIONES op = new OPERACIONES();
         double num = array.get(jlist.getSelectedIndex());
-        TXTRAIZ.setText(df.format(Math.pow(num, 0.5)));
-        TXTCUADRADO.setText(df.format(Math.pow(num, 2)));
-        TXTCUBO.setText(df.format(Math.pow(num, 3)));
+        TXTRAIZ.setText(df.format(op.calcularraiz(num)));
+        TXTCUADRADO.setText(df.format(op.calcularcuadrado(num)));
+        TXTCUBO.setText(df.format(op.calcularcubo(num)));
     }//GEN-LAST:event_BTNCALCULARActionPerformed
 
     private void BTNBORRARActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNBORRARActionPerformed
